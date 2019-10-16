@@ -35,4 +35,13 @@ public class Tariff {
     public void setPeriod(int period) {
         this.period = period;
     }
+
+    @Override
+    public String toString() {
+        return "Tariff{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", period=" + period +
+                '}';
+    }
 }

@@ -65,4 +65,16 @@ public class TurnOn extends Tariff {
     public void setFeatures(String features) {
         this.features = features;
     }
+
+    @Override
+    public String toString() {
+        return "TurnOn{" +
+                "minutes=" + minutes +
+                ", unlimitedInternet=" + unlimitedInternet +
+                ", internetLimit=" + internetLimit +
+                ", sms=" + sms +
+                ", cashbackLimit=" + cashbackLimit +
+                ", features='" + features + '\'' +
+                '}';
+    }
 }

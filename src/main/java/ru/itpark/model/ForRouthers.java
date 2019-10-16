@@ -15,4 +15,11 @@ public class ForRouthers extends Tariff {
     public void setUnlimitedInternet(boolean unlimitedInternet) {
         this.unlimitedInternet = unlimitedInternet;
     }
+
+    @Override
+    public String toString() {
+        return "ForRouthers{" +
+                "unlimitedInternet=" + unlimitedInternet +
+                '}';
+    }
 }

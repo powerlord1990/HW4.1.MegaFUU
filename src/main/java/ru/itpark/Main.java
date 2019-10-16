@@ -15,5 +15,6 @@ public class Main {
                 30,
                 "Кино и сериалы в Мегафон ТВ"
         );
+        System.out.println(look.toString());
     }
 }

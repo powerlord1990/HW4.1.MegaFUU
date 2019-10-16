@@ -45,4 +45,14 @@ public class Other extends Tariff {
     public void setSecondBilling(boolean secondBilling) {
         this.secondBilling = secondBilling;
     }
+
+    @Override
+    public String toString() {
+        return "Other{" +
+                "internetLimit=" + internetLimit +
+                ", unlimitedInternet=" + unlimitedInternet +
+                ", unlimitedCall=" + unlimitedCall +
+                ", secondBilling=" + secondBilling +
+                '}';
+    }
 }
