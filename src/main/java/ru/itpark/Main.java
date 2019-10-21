@@ -20,7 +20,28 @@ public class Main {
                 "Кино и сериалы в Мегафон ТВ"
         );
 
+        ForRoutherTariff yourUnlim = new ForRoutherTariff(
+                3,
+                "Твой безлимит на 6 месяцев",
+                3100,
+                Tariff.year / 2,
+                true
+        );
+
+        OtherTariff hello = new OtherTariff(
+                2,
+                "#Hello",
+                750,
+                14,
+                30,
+                false,
+                true,
+                false
+        );
 
         System.out.println(look.toString());
+        System.out.println(yourUnlim.toString());
+        System.out.println(hello.toString());
+
     }
 }
