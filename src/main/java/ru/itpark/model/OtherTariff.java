@@ -6,8 +6,8 @@ public class OtherTariff extends Tariff {
     private boolean unlimitedCall;
     private boolean secondBilling;
 
-    public OtherTariff(String name, int price, int period, int internetLimit, boolean unlimitedInternet, boolean unlimitedCall, boolean secondBilling) {
-        super(name, price, period);
+    public OtherTariff(int id, String name, int price, int period, int internetLimit, boolean unlimitedInternet, boolean unlimitedCall, boolean secondBilling) {
+        super(id, name, price, period);
         this.internetLimit = internetLimit;
         this.unlimitedInternet = unlimitedInternet;
         this.unlimitedCall = unlimitedCall;

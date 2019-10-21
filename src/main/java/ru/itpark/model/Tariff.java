@@ -1,15 +1,26 @@
 package ru.itpark.model;
 
 public class Tariff {
+    private int id;
     private String name;
     private int price;
     private int period;
     public static final int year=365;
 
-    public Tariff(String name, int price, int period) {
+
+    public Tariff(int id, String name, int price, int period) {
+        this.id = id;
         this.name = name;
         this.price = price;
         this.period = period;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -35,13 +46,4 @@ public class Tariff {
     public void setPeriod(int period) {
         this.period = period;
     }
-
-    @Override
-    public String toString() {
-        return "Tariff{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                ", period=" + period +
-                '}';
     }
-}

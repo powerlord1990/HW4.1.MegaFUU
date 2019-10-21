@@ -8,8 +8,8 @@ public class TurnOnTariff extends Tariff {
     private int cashbackLimit;
     private String features;
 
-    public TurnOnTariff(String name, int price, int period, int minutes, boolean unlimitedInternet, int internetLimit, int sms, int cashbackLimit, String features) {
-        super(name, price, period);
+    public TurnOnTariff(int id, String name, int price, int period, int minutes, boolean unlimitedInternet, int internetLimit, int sms, int cashbackLimit, String features) {
+        super(id, name, price, period);
         this.minutes = minutes;
         this.unlimitedInternet = unlimitedInternet;
         this.internetLimit = internetLimit;
