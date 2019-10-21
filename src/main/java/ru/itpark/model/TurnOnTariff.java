@@ -1,6 +1,6 @@
 package ru.itpark.model;
 
-public class TurnOn extends Tariff {
+public class TurnOnTariff extends Tariff {
     private int minutes;
     private boolean unlimitedInternet;
     private int internetLimit;
@@ -8,7 +8,7 @@ public class TurnOn extends Tariff {
     private int cashbackLimit;
     private String features;
 
-    public TurnOn(String name, int price, int period, int minutes, boolean unlimitedInternet, int internetLimit, int sms, int cashbackLimit, String features) {
+    public TurnOnTariff(String name, int price, int period, int minutes, boolean unlimitedInternet, int internetLimit, int sms, int cashbackLimit, String features) {
         super(name, price, period);
         this.minutes = minutes;
         this.unlimitedInternet = unlimitedInternet;

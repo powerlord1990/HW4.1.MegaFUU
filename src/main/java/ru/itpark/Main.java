@@ -1,10 +1,10 @@
 package ru.itpark;
 
-import ru.itpark.model.TurnOn;
+import ru.itpark.model.TurnOnTariff;
 
 public class Main {
     public static void main(String[] args) {
-        TurnOn look = new TurnOn(
+        TurnOnTariff look = new TurnOnTariff(
                 "Включайся. Смотри",
                 650,
                 30,

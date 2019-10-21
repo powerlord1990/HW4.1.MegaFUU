@@ -1,9 +1,9 @@
 package ru.itpark.model;
 
-public class ForRouthers extends Tariff {
+public class ForRoutherTariff extends Tariff {
     private boolean unlimitedInternet;
 
-    public ForRouthers(String name, int price, int period, boolean unlimitedInternet) {
+    public ForRoutherTariff(String name, int price, int period, boolean unlimitedInternet) {
         super(name, price, period);
         this.unlimitedInternet = unlimitedInternet;
     }

@@ -1,12 +1,12 @@
 package ru.itpark.model;
 
-public class Other extends Tariff {
+public class OtherTariff extends Tariff {
     private int internetLimit;
     private boolean unlimitedInternet;
     private boolean unlimitedCall;
     private boolean secondBilling;
 
-    public Other(String name, int price, int period, int internetLimit, boolean unlimitedInternet, boolean unlimitedCall, boolean secondBilling) {
+    public OtherTariff(String name, int price, int period, int internetLimit, boolean unlimitedInternet, boolean unlimitedCall, boolean secondBilling) {
         super(name, price, period);
         this.internetLimit = internetLimit;
         this.unlimitedInternet = unlimitedInternet;
