@@ -14,10 +14,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <!-- Double Shift -> Run Anything -> mvn test (но лучше сразу привыкнуть к verify) -->
     <build>
         <plugins>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
@@ -37,7 +35,7 @@
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
                 <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>3.1.12.2</version>
+                <version>3.1.8</version>
                 <executions>
                     <execution>
                         <goals>
@@ -50,7 +48,6 @@
     </build>
 
     <dependencies>
-        <!-- dep + TAB -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
