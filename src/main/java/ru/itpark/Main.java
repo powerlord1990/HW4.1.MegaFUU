@@ -21,7 +21,7 @@ public class Main {
         );
 
         ForRoutherTariff yourUnlim = new ForRoutherTariff(
-                1,
+                3,
                 "Твой безлимит на 6 месяцев",
                 3100,
                 Tariff.year / 2,
