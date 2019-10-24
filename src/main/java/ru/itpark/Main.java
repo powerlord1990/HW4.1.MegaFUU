@@ -1,6 +1,6 @@
 package ru.itpark;
 
-import ru.itpark.model.ForRoutherTariff;
+import ru.itpark.model.ForRouterTariff;
 import ru.itpark.model.OtherTariff;
 import ru.itpark.model.Tariff;
 import ru.itpark.model.TurnOnTariff;
@@ -20,7 +20,7 @@ public class Main {
                 "Кино и сериалы в Мегафон ТВ"
         );
 
-        ForRoutherTariff yourUnlim = new ForRoutherTariff(
+        ForRouterTariff yourUnlim = new ForRouterTariff(
                 3,
                 "Твой безлимит на 6 месяцев",
                 3100,
